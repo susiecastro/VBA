@@ -1,0 +1,19 @@
+''Quando coloca Option Explict é obrigatório declarar a variável
+
+Option Explicit
+
+
+Sub Pagamento()
+   Dim pesoKg As Single
+    Dim valorKg As Single
+
+     Dim valorapagar As Single
+    
+    pesoKg = InputBox("Digite o valor da balança (Kg): ")
+    valorKg = InputBox("Digite o valor do (Kg): ")
+    
+    valorapagar = pesoKg * valorKg
+    
+    MsgBox valorapagar
+     
+End Sub
